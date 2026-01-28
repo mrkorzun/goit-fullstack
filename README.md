@@ -53,10 +53,14 @@ Become a **Junior Fullstack Developer** with solid understanding of modern web d
 
 The project is organized by technology modules:
 
-- **HTML-CSS** — Markup, styling, and responsive layouts
-- **JavaScript** — Logic, DOM manipulation, and asynchronous programming
-- **React / Next.js** — Modern frontend frameworks
-- **Node.js** — Backend development and databases
+| Module                            | Description                                     |
+| :-------------------------------- | :---------------------------------------------- |
+| 🟧 **[HTML-CSS](./HTML-CSS)**     | Markup, styling, and responsive layouts         |
+| 🟨 **[JavaScript](./JavaScript)** | Logic, DOM manipulation, and async programming  |
+| 🟦 **[React](./React)**           | Modern frontend framework with state management |
+| 🟦 **[TypeScript](./TypeScript)** | Type-safe JavaScript fundamentals               |
+| 🟩 **[Next.js](./Nextjs)**        | Advanced frontend with SSR/SSG/ISR              |
+| 🟩 **[Node.js](./Nodejs)**        | Backend development with Express & MongoDB      |
 
 ## 🛠 Tech Stack (Course Syllabus + Extra)
 
@@ -136,4 +140,6 @@ The project is organized by technology modules:
 
 ---
 
-_“The best way to predict the future is to create it.”_
+<p align="center">
+    <b>_"The best way to predict the future is to create it."_</b>
+</p>
