@@ -1,10 +1,23 @@
-# Fullstack Development Journey (GOIT 2026)
+<p align="center">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Fullstack%20Developer%20Journey%20(GOIT%202026)&fontSize=40&fontAlignY=35" />
+</p>
 
-This repository is dedicated to my learning progress in the Fullstack Development course. Here I store all my homework, practice tasks, and projects, starting from the basics of web development.
+<p align="center">
+  This repository is dedicated to my learning progress in the <b>Fullstack Development</b> course. <br> Here I store all my homework, practice tasks, and projects, starting from the basics of web development.
+</p>
 
-## Learning Goals
-
-### Primary Goal
+# Primary Goal
 
 Become a **Junior Fullstack Developer** with solid understanding of modern web development stack (Frontend + Backend).
 
@@ -40,17 +53,26 @@ Become a **Junior Fullstack Developer** with solid understanding of modern web d
 
 The project is organized by technology modules:
 
-- **HTML-CSS** — Markup, styling, and responsive layouts (Current focus 🚀)
+- **HTML-CSS** — Markup, styling, and responsive layouts
 - **JavaScript** — Logic, DOM manipulation, and asynchronous programming
 - **React / Next.js** — Modern frontend frameworks
 - **Node.js** — Backend development and databases
 
-## 🛠 Tech Stack (Learning in progress)
+## 🛠 Tech Stack (Course Syllabus + Extra)
 
-- **Tools:** VS Code, Git, GitHub, Chrome DevTools
-- **Languages:** HTML5, CSS3, JavaScript, TypeScript
+- **Tools:** VS Code, Git, GitHub, Figma, Chrome DevTools
+- **Frontend:** HTML5, CSS3 (Flexbox, Grid), JavaScript, React, Next.js
+- **State Management:** Zustand, Redux Toolkit
+- **Type System:** TypeScript
+- **Data fetching:** Axios, TanStack Query
 - **Backend:** Node.js, Express, MongoDB
-- **OS:** macOS & Windows (Cross-platform development)
+- **Auth & Security:** NextAuth.js, JWT/Tokens, Google Auth, Joi Validation
+- **API & Cloud:** Swagger/OpenAPI, Cloudinary
+
+## 💻 My environment
+
+- **OS:** macOS & Windows
+- **Browsers:** Chrome, Firefox
 
 ## ✅ Full Course Roadmap & Progress
 
@@ -64,45 +86,53 @@ The project is organized by technology modules:
 ### 🟧 Module 1: HTML + CSS
 
 - [ ] HTML Basics & Semantic tags
-- [ ] CSS Fundamentals (Selectors, Box Model)
-- [ ] Flexbox Layout
-- [ ] Responsive & Adaptive Design (Media queries)
-- [ ] CSS Variables & Modern Layouts
+- [ ] CSS Fundamentals (Selectors, Box Model, Cascade)
+- [ ] Flexbox & Grid Layouts (Extra)
+- [ ] Decorative effects, SVG, Transitions & Animations
+- [ ] Forms, Tables & Modal windows
+- [ ] Responsive & Adaptive Design (Mobile First approach)
+- [ ] Team Project: HTML/CSS
 
 ### 🟨 Module 2: JavaScript (Core)
 
-- [ ] Variables, Data types & Operators
-- [ ] Functions & Scope
-- [ ] Arrays & Objects
-- [ ] Iterating methods (map, filter, reduce)
-- [ ] DOM & Events
-- [ ] Asynchronous JS (Promises, Async/Await, HTTP/Axios)
+- [ ] Variables, Data types & Functions basics
+- [ ] Branching, Loops & String methods
+- [ ] Arrays, Objects & Iteration methods (map, filter, reduce)
+- [ ] OOP, Prototypes & Classes (`this` context)
+- [ ] DOM, Events & Event Delegation
+- [ ] LocalStorage, JSON & Modular code (Vite)
+- [ ] Asynchronous JS (Promises, Async/Await)
+- [ ] HTTP Requests (Axios) & Pagination
+- [ ] Team Project: JavaScript
 
 ### 🟦 Module 3: React + TypeScript
 
-- [ ] React Components & Props
-- [ ] State management (useState, useReducer)
-- [ ] Effects & Lifecycle (useEffect)
-- [ ] Forms & Validation (Formik/Yup)
-- [ ] Data fetching (TanStack Query)
-- [ ] TypeScript integration
+- [ ] TypeScript Fundamentals (Types, Interfaces, Generics)
+- [ ] React Components, Props & State (useState)
+- [ ] Effects & Lifecycle (useEffect, LocalStorage)
+- [ ] Forms & Validation (Formik, Yup)
+- [ ] Server State with TanStack Query (Caching, Pagination)
+- [ ] Mutations & CRUD operations
 
 ### 🟩 Module 4: Next.js (Advanced Frontend)
 
-- [ ] Routing & Navigation
+- [ ] Routing (Dynamic, Nested, Parallel & Intercepting routes)
 - [ ] Rendering strategies (SSR, SSG, ISR, CSR)
-- [ ] State management (Zustand)
-- [ ] Authentication (NextAuth)
-- [ ] SEO & Deployment
+- [ ] Performance Optimization (next/image, next/font, SEO)
+- [ ] State management (Zustand & Redux Toolkit basics)
+- [ ] Authentication & Security (NextAuth.js, Middleware, Cookies)
+- [ ] Deployment (Vercel)
 
 ### 🟩 Module 5: Node.js (Backend)
 
-- [ ] Express.js basics
-- [ ] MongoDB & Mongoose
-- [ ] REST API development
-- [ ] Authentication & Authorization (JWT)
-- [ ] File uploads (Cloudinary)
-- [ ] API Documentation (Swagger)
+- [ ] Node.js basics & File system
+- [ ] Express.js Framework & Middleware
+- [ ] MongoDB & Mongoose (Data modeling)
+- [ ] REST API Development (CRUD, Error handling)
+- [ ] Validation (Joi) & Pagination/Sorting/Filters
+- [ ] Auth: Registration, Login, Hashing & Tokens (Access/Refresh)
+- [ ] Email services (SMTP, Password reset, Handlebars)
+- [ ] Image handling (Cloudinary) & API Docs (Swagger)
 
 ---
 
