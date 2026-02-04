@@ -9,7 +9,7 @@
   <body>
     <!-- Хедер сторінки -->
 
-    <header>
+    <header class="page-header">
       <a href="../../index.html">
         <img
           src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04pflogo.svg"
@@ -18,16 +18,16 @@
           height="40"
         />&LeftArrow; Back</a
       >
-      <nav>
+      <nav class="page-nav">
         <ul>
           <li>
-            <a href="#clubs">Our Clubs</a>
+            <a href="#clubs" class="link">Our Clubs</a>
           </li>
           <li>
-            <a href="#benefits">PF Benefits</a>
+            <a href="#benefits" class="link">PF Benefits</a>
           </li>
           <li>
-            <a href="#programs">Tips and Programs</a>
+            <a href="#programs" class="link">Tips and Programs</a>
           </li>
         </ul>
       </nav>
@@ -36,10 +36,11 @@
     <!-- Унікальний контент сторінки -->
 
     <main>
-      <h1 id="hero">Planet Fatness</h1>
+      <h1 class="page-title">Planet Fatness</h1>
       <a
         href="https://ac.goit.global/fullstack/html-css-v2/module-1/materials/b03pfpagecontent.pdf"
         target="_blank"
+        class="desig-task"
       >
         Link to design task</a
       >
@@ -66,8 +67,8 @@
 
       <!-- секція про розташування. -->
       <section>
-        <h2 id="clubs">Find us near you</h2>
-        <p>
+        <h2 id="clubs" class="section-title">Find us near you</h2>
+        <p class="section-text">
           Get healthy, feel strong, and be happy! With 50+ classes on the menu,
           including HIIT classes, group fitness, and Personal Training, we have
           something for every taste. All the gyms and fitness studios in our
@@ -78,21 +79,25 @@
           fresh daily. See where we're currently operating.
         </p>
 
-        <ul>
+        <ul class="club-list">
           <li>
             <img
               src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/B031.jpg"
               width="320"
               alt="PF Power Zone. A modern gym equipped with treadmills."
             />
-            <h3>PF Power Zone</h3>
-            <p>
+            <h3 class="title">PF Power Zone</h3>
+            <p class="text">
               With full access membership you'll gain access to our state of the
               art gym floor and become a part of a supportive fitness community.
               Feel confident and strong, with equipment to challenge every level
               of fitness.
             </p>
-            <a href="https://goo.gl/maps/qBnEfK5AingPLZgb9" target="_blank">
+            <a
+              href="https://goo.gl/maps/qBnEfK5AingPLZgb9"
+              target="_blank"
+              class="link"
+            >
               Open in Google Maps</a
             >
           </li>
@@ -102,13 +107,17 @@
               width="320"
               alt="PF Fit and Fast. A gym with indoor bikes behind a glass door."
             />
-            <h3>PF Fit and Fast</h3>
-            <p>
+            <h3 class="title">PF Fit and Fast</h3>
+            <p class="text">
               Small group training combines the focused attention of a private
               session with the energy of a group. With up to 5 people, the
               groups have their own program, training area and equipment.
             </p>
-            <a href="https://goo.gl/maps/WZ4K6XMvHU7FkgWB7" target="_blank">
+            <a
+              href="https://goo.gl/maps/WZ4K6XMvHU7FkgWB7"
+              target="_blank"
+              class="link"
+            >
               Open in Google Maps
             </a>
           </li>
@@ -118,14 +127,18 @@
               width="320"
               alt="PF Body Sculpting. A studio with fitness balls and trx straps."
             />
-            <h3>PF Body Sculpting</h3>
-            <p>
+            <h3 class="title">PF Body Sculpting</h3>
+            <p class="text">
               Our 1 on 1 private training is the best choice for people looking
               for a personalized program based on their goals. You will have
               your own training room with one of our experienced fitness
               coaches.
             </p>
-            <a href="https://goo.gl/maps/UZqkiUqS6eWL5DJd7" target="_blank">
+            <a
+              href="https://goo.gl/maps/UZqkiUqS6eWL5DJd7"
+              target="_blank"
+              class="link"
+            >
               Open in Google Maps
             </a>
           </li>
@@ -135,12 +148,12 @@
       <!-- секція про переваги спортклубів мережі. -->
       <section>
         <h2 id="benefits">Why choose Planet Fatness?</h2>
-        <p>
+        <p class="section-text">
           We're bringing accessible, on-trend fitness to everyone! We are more
           than just a gym - we are a community. We are the crew to help you
           reach the goals.
         </p>
-        <ol>
+        <ol class="benefits">
           <li>
             No blames, no empty promises, no people who are talking about things
             they don't know about. Our mission is to create a safe space for you
@@ -179,7 +192,7 @@
           Mountain View, CA 228322<br />
           USA
         </address>
-        <button type="button">Request a callback</button>
+        <button type="button" class="button">Request a callback</button>
       </section>
 
       <!--програмa тренувань для новачків-->
@@ -187,7 +200,7 @@
         <h2 id="programs">
           How to stop doubting and start exercising regularly
         </h2>
-        <p>
+        <p class="section-text">
           Thousands of people dream about having a nice body. They start doing
           sport, face challenges and quit it in a few weeks or even days. Why
           does it happen? The problem is that people often do too much physical
@@ -197,11 +210,12 @@
           and focus on developing a habit of doing sport regularly. So, we offer
           you a few training programs for beginners.
         </p>
-        <ul>
+        <ul class="download">
           <li>
             <a
               href="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/Build-Muscles.pdf"
               download="build-muscles-plan"
+              class="link"
             >
               Download «Build Muscles» training plan
             </a>
@@ -210,6 +224,7 @@
             <a
               href="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/Burn-Fat.pdf"
               download="burn-fat-plan"
+              class="link"
             >
               Download «Burn Fat» training plan
             </a>
@@ -218,6 +233,7 @@
             <a
               href="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/Build-Strength&Mass.pdf"
               download="strength-and-mass-plan"
+              class="link"
             >
               Download «Build Strength and Mass» training plan
             </a>
@@ -228,10 +244,14 @@
 
     <!-- Футер сторінки -->
 
-    <footer>
+    <footer class="page-footer">
       <ul>
         <li>
-          <a href="https://www.instagram.com/mrkorzun" target="_blank">
+          <a
+            href="https://www.instagram.com/mrkorzun"
+            target="_blank"
+            class="link"
+          >
             <img
               src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04insta.svg"
               alt="Instagram"
@@ -241,7 +261,7 @@
           </a>
         </li>
         <li>
-          <a href="https://www.facebook.com/" target="_blank">
+          <a href="https://www.facebook.com/" target="_blank" class="link">
             <img
               src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04facebook.svg"
               alt="Facebook"
@@ -251,7 +271,7 @@
           </a>
         </li>
         <li>
-          <a href="https://www.youtube.com/" target="_blank">
+          <a href="https://www.youtube.com/" target="_blank" class="link">
             <img
               src="https://ac.goit.global/fullstack/html-css-v2/module-1/autocheck/b04youtube.svg"
               alt="YouTube"
@@ -261,7 +281,7 @@
           </a>
         </li>
       </ul>
-      <p>
+      <p class="copyright-text">
         &#169; 2023 ARST Planet Fatness, Ltd. All rights reserved. Unless
         otherwise indicated, all materials on the page are copyrighted by ARST
         Planet Fatness, Limited. All rights reserved. No part of this page,
