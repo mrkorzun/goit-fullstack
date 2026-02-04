@@ -1,7 +1,20 @@
 .header {
-  color: blue;
+  color: rgb(255, 0, 0);
 }
 
 .paragraph {
-  color: black;
+  background-color: tomato;
+  color: #00ff00;
+}
+
+a {
+  color: rgb(0%, 0%, 0%);
+}
+
+header {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+nav {
+  background-color: rgba(0%, 0%, 100%, 30%);
 }
