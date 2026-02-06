@@ -8,16 +8,46 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
     />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      main {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: 'Oswald', sans-serif;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .link:hover {
+        color: red;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <a href="https://mrkorzun.github.io/goit-fullstack/" target="_blank"
+      <a
+        href="https://mrkorzun.github.io/goit-fullstack/"
+        rel="noopener noreferrer"
         >&LeftArrow; Back</a
       >
       <h1>My Learning Progress: HTML & CSS</h1>
     </header>
     <main>
-      <section>
+      <section class="module-html">
         <h2>Module 1 - HTML Basics</h2>
         <p>Module Learning Objectives:</p>
         <ul>
@@ -46,30 +76,34 @@
         <ol>
           <li>
             <article>
-              <h4>Cake Task</h4>
+              <h4 class="projects">Cake Task</h4>
               <p>
                 Introduction to web technologies, tags, and attributes.<br />
                 Focused on mastering text elements, lists, and the core skeleton
                 of an HTML document.
               </p>
-              <a href="module-1/cake-task/index.html">View project &rarr;</a>
+              <a href="module-1/cake-task/index.html" class="link"
+                >View project &rarr;</a
+              >
             </article>
           </li>
           <li>
             <article>
-              <h4>Gym Task</h4>
+              <h4 class="projects">Gym Task</h4>
               <p>
                 Practicing structural markup and the step-by-step page creation
                 algorithm. <br />
                 Focused on organizing content into logical blocks and working
                 with media elements.
               </p>
-              <a href="module-1/gym-task/index.html">View project &rarr;</a>
+              <a href="module-1/gym-task/index.html" class="link"
+                >View project &rarr;</a
+              >
             </article>
           </li>
           <li>
             <article>
-              <h4>HomeWork - WebStudio</h4>
+              <h4 class="projects">HomeWork - WebStudio</h4>
               <p>
                 Comprehensive application of Module 1 skills: <br />
                 building a multi-section business website from scratch.
@@ -80,9 +114,11 @@
               <a
                 href="https://www.figma.com/file/wuEpGhwCepGCOUw7mZFRac/Web-Studio-(Version-5.0)?type=design&node-id=0-1&mode=design&t=HqslgV0OjDOknzIj-0"
                 target="_blank"
+                rel="noopener noreferrer"
+                class="link"
                 >View layout (Figma) &rarr;</a
               >
-              <a href="module-1/goit-markup-hw-01/index.html"
+              <a href="module-1/goit-markup-hw-01/index.html" class="link"
                 >Open homework &rarr;</a
               >
             </article>
@@ -107,14 +143,31 @@
             Configure typography, including font families and text formatting.
           </li>
         </ul>
-
         <hr />
+        <ol>
+          <li>
+            <h4 class="projects">CSS Fundamentals Task</h4>
+            <p>
+              Introduction to CSS styling, selectors, and typography. <br />
+              Focused on mastering color management, font properties, and
+              interactive elements using pseudo-classes. Implemented Modern
+              Normalize for cross-browser consistency. (Feb 6, 2026)
+            </p>
+            <a href="../HTML-CSS/module-2/gym-task-2/index.html" class="link"
+              >View project →</a
+            >
+          </li>
+        </ol>
       </section>
     </main>
     <footer>
       <p>
         &#169; 2026 My Learning Journey |
-        <a href="https://mrkorzun.github.io/goit-fullstack/" target="_blank"
+        <a
+          href="https://mrkorzun.github.io/goit-fullstack/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="link"
           >GoIT FullStack Course</a
         >
       </p>

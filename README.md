@@ -19,7 +19,8 @@
 
 # Primary Goal
 
-Become a **Junior Fullstack Developer** with solid understanding of modern web development stack (Frontend + Backend).
+Become a **Junior Fullstack Developer** with solid understanding of modern web
+development stack (Frontend + Backend).
 
 ### Short-term Goals (HTML-CSS & JavaScript)
 
@@ -89,8 +90,8 @@ The project is organized by technology modules:
 
 ### 🟧 Module 1: HTML + CSS
 
-- [ ] HTML Basics & Semantic tags
-- [ ] CSS Fundamentals (Selectors, Box Model, Cascade)
+- [x] HTML Basics & Semantic tags
+- [x] CSS Fundamentals (Selectors, Box Model, Cascade)
 - [ ] Flexbox & Grid Layouts (Extra)
 - [ ] Decorative effects, SVG, Transitions & Animations
 - [ ] Forms, Tables & Modal windows
