@@ -1,5 +1,23 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #2a2a2a;
+  font-size: 14px;
+  background-color: #fafafa;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Tahoma';
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .page-header {
@@ -22,7 +40,7 @@ body {
 .page-title {
   color: #f44336;
   font-family: 'Prata', serif;
-  font-family: 24px;
+  font-size: 24px;
   font-weight: 900;
   font-style: italic;
 }
