@@ -21,25 +21,29 @@ h2 {
   font-weight: 700;
   text-align: center;
   color: #2e2f42;
+  line-height: 1.2;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 500;
   color: #2e2f42;
+  line-height: 1.2;
 }
 
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   text-transform: uppercase;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
-span {
-  color: #4d5ae5;
+.span-logo-header {
+  color: #2e2f42;
 }
 
 .link {
@@ -48,17 +52,18 @@ span {
 }
 
 .link:hover {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .menu-list {
   list-style-type: none;
   font-size: 16px;
   font-weight: 500;
+  color: #434455;
 }
 
 .address-list {
@@ -132,4 +137,8 @@ footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
+}
+
+.span-logo-footer {
+  color: #4d5ae5;
 }
