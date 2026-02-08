@@ -42,13 +42,17 @@ h3 {
   letter-spacing: 0.03em;
 }
 
-.span-logo-header {
+.span-part {
   color: #2e2f42;
 }
 
 .link {
   text-decoration: none;
-  color: #2e2f42;
+  color: #434455;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .link:hover {
@@ -63,7 +67,18 @@ h3 {
   list-style-type: none;
   font-size: 16px;
   font-weight: 500;
-  color: #434455;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .address-list {
@@ -100,6 +115,15 @@ h3 {
   list-style-type: none;
 }
 
+.advantages-subtitle {
+  line-height: 1.2;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .advantages-text {
   width: 264px;
 }
@@ -114,29 +138,32 @@ h3 {
 
 .team-card {
   width: 264px;
-  height: 380px;
+  /*height: 380px;*/
   background-color: #ffffff;
   text-align: center;
 }
 
 .portfolio-card {
   width: 360px;
-  height: 420px;
+  /*height: 420px;*/
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 footer {
   background-color: #2e2f42;
-  color: white;
 }
 
 .footer-logo {
-  color: white;
+  color: #f4f4fd;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
 
 .span-logo-footer {
