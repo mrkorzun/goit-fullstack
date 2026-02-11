@@ -138,5 +138,43 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.dist/
+build/
+.cache/
+
+# Virtual env
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
 .DS_Store
-**/.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# Production / Build output
+dist/
+build/
+out/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: Prettier cache
+.prettiercache
