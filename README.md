@@ -92,7 +92,7 @@ The project is organized by technology modules:
 
 - [x] HTML Basics & Semantic tags
 - [x] CSS Fundamentals (Selectors, Box Model, Cascade)
-- [ ] Flexbox & Grid Layouts (Extra)
+- [x] Flexbox & Grid Layouts (Extra)
 - [ ] Decorative effects, SVG, Transitions & Animations
 - [ ] Forms, Tables & Modal windows
 - [ ] Responsive & Adaptive Design (Mobile First approach)
