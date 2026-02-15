@@ -28,7 +28,7 @@ h1 {
   text-align: center;
 }
 
-button {
+.order-button {
   color: aliceblue;
   background-color: #4d5ae5;
   padding: 20px 33px;
@@ -37,8 +37,10 @@ button {
   border: none;
 }
 
-button:hover {
-  background-color: blue;
+.order-button:hover,
+.order-button:focus,
+.order-button:active {
+  background-color: #404bbf;
 }
 
 h2 {
